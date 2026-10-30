@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Runtime data (evidence vault, database, derived files, secret key)
+data/
+*.db
+.secret
+
+# Experiment scratch output
+experiments/results/results_quick.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

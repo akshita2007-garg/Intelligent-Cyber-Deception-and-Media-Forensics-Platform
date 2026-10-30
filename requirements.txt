@@ -1,0 +1,16 @@
+# core
+fastapi>=0.110
+uvicorn>=0.27
+sqlalchemy>=2.0
+python-multipart>=0.0.9
+pillow>=10.0
+numpy>=1.26
+reportlab>=4.0
+# video frame analysis (optional but recommended; the platform runs without it)
+opencv-python-headless>=4.8
+# tests / experiments
+pytest>=8.0
+httpx>=0.27
+# optional extras (uncomment as needed)
+# psycopg2-binary>=2.9     # PostgreSQL: set DATABASE_URL=postgresql+psycopg2://user:pw@host/idmf
+# volatility3>=2.5         # memory process listing (the 'vol' command must be on PATH)
