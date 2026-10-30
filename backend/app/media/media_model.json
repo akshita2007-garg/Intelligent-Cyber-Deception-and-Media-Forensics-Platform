@@ -1,0 +1,49 @@
+{
+ "features": [
+  "ela_ratio",
+  "ela_peak_z",
+  "ela_dip_z",
+  "ghost_z",
+  "noise_peak_z",
+  "noise_dip_z",
+  "noise_ratio",
+  "meta_editor",
+  "meta_date_mismatch"
+ ],
+ "mean": [
+  2.331516,
+  41197.994031,
+  1.926019,
+  2.430462,
+  5.373409,
+  3.053401,
+  0.281117,
+  0.105,
+  0.0
+ ],
+ "std": [
+  3.422783,
+  136982.946179,
+  0.833124,
+  0.398272,
+  5.77848,
+  1.670552,
+  0.202387,
+  0.306553,
+  1.0
+ ],
+ "coef": [
+  0.005393,
+  0.108692,
+  0.008594,
+  0.014296,
+  0.780685,
+  1.11123,
+  0.986858,
+  0.549934,
+  0.0
+ ],
+ "intercept": 0.082512,
+ "threshold": 0.36,
+ "note": "logistic fusion fitted on 200 synthetic calibration images (seed 2026)"
+}

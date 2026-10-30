@@ -1,0 +1,243 @@
+{
+ "seed": 42,
+ "org": "northwind.com",
+ "victim": "alice.m@northwind.com",
+ "late_stages": true,
+ "dns_tunnel": true,
+ "image_attached": false,
+ "honeypot_ip_reused": true,
+ "honeypot_download": false,
+ "decoy_document_accessed": false,
+ "attacker": {
+  "ip": "23.15.47.56",
+  "honeypot_ip": "23.15.47.56",
+  "c2_domain": "hub-cloud72.ru",
+  "c2_ip": "193.214.112.115",
+  "phish_domain": "northwind-verify-portal.click",
+  "payload_sha256": "4d6ff423fa97acbee886c3881451dbc18b5bfb617d86d4746de9af15225d6819"
+ },
+ "honeytokens": [
+  {
+   "id": 1,
+   "token_type": "credential",
+   "label": "Decoy account svc_sql78",
+   "value": "svc_sql78",
+   "secret": "duZEitXA8c6hGd",
+   "group": "decoy-set-1"
+  },
+  {
+   "id": 2,
+   "token_type": "document",
+   "label": "Decoy document Passwords_backup_470.txt",
+   "value": "passwords_backup_470.txt",
+   "secret": "",
+   "group": "decoy-set-1"
+  }
+ ],
+ "files": [
+  {
+   "name": "01_phishing.eml",
+   "module": "email",
+   "related": true
+  },
+  {
+   "name": "02_victim_History",
+   "module": "browser",
+   "related": true
+  },
+  {
+   "name": "03_victim_capture.pcap",
+   "module": "network",
+   "related": true
+  },
+  {
+   "name": "04_victim_memory.mem",
+   "module": "memory",
+   "related": true
+  },
+  {
+   "name": "05_honeypot_cowrie.json",
+   "module": "deception",
+   "related": true
+  },
+  {
+   "name": "06_victim_disk.body",
+   "module": "disk",
+   "related": true
+  },
+  {
+   "name": "07_receipt_5425.jpg",
+   "module": "media",
+   "related": false
+  },
+  {
+   "name": "08_newsletter.eml",
+   "module": "email",
+   "related": false
+  },
+  {
+   "name": "09_internal_memo.eml",
+   "module": "email",
+   "related": false
+  },
+  {
+   "name": "10_scanner_cowrie.json",
+   "module": "deception",
+   "related": false
+  },
+  {
+   "name": "11_holiday_558.jpg",
+   "module": "media",
+   "related": false
+  },
+  {
+   "name": "12_colleague_History",
+   "module": "browser",
+   "related": false
+  },
+  {
+   "name": "13_colleague_capture.pcap",
+   "module": "network",
+   "related": false
+  }
+ ],
+ "planted": {
+  "01_phishing.eml": [
+   "domain|northwind-verify-portal.click",
+   "domain|northwind.com",
+   "domain|portal.northwind.com",
+   "email|alice.m@northwind.com",
+   "email|helpdesk@northwind.com",
+   "email|it-support@northwind-verify-portal.click",
+   "filename|po_384.docm",
+   "ip|23.15.47.56",
+   "sha256|4d6ff423fa97acbee886c3881451dbc18b5bfb617d86d4746de9af15225d6819",
+   "url|https://northwind-verify-portal.click/verify?id=65392",
+   "url|https://portal.northwind.com/account"
+  ],
+  "02_victim_History": [
+   "domain|github.com",
+   "domain|google.com",
+   "domain|hub-cloud72.ru",
+   "domain|intranet.northwind.com",
+   "domain|northwind-verify-portal.click",
+   "domain|nytimes.com",
+   "domain|python.org",
+   "domain|reddit.com",
+   "domain|stackoverflow.com",
+   "filename|po_384.docm",
+   "url|http://hub-cloud72.ru/dl/po_384.docm",
+   "url|https://github.com",
+   "url|https://google.com/search?q=quarterly+report",
+   "url|https://intranet.northwind.com/home",
+   "url|https://northwind-verify-portal.click/verify?id=65392",
+   "url|https://nytimes.com",
+   "url|https://python.org",
+   "url|https://reddit.com",
+   "url|https://stackoverflow.com"
+  ],
+  "03_victim_capture.pcap": [
+   "domain|4ucvgs54rk5dqbwvqzty35qywfbt6sj6xocggtvsjd42tyeu.t.hub-cloud72.ru",
+   "domain|cone5brki7dzqtm2ojelxpqc7m7bjpaz44qspvmzwcytdvsl.t.hub-cloud72.ru",
+   "domain|d7dmxmhkhtqxsy7elgs4gtj3w2cxpjt5fwi3w4qtu364u2qe.t.hub-cloud72.ru",
+   "domain|ffarawr3jxxlgvvgfb2gfr22iut5q7sozh6vwqelricdxyy6.t.hub-cloud72.ru",
+   "domain|google.com",
+   "domain|hub-cloud72.ru",
+   "domain|ie2e2migyddvbpbdtmpau5bnxzqwclujfo3gz4543mpmhlvq.t.hub-cloud72.ru",
+   "domain|intranet.northwind.com",
+   "domain|jdkaqmo27nsdpsbrcw6ue4hupp7k3scgantx5oowflxzmax2.t.hub-cloud72.ru",
+   "domain|oomso6kgm6yi35l75kdqe7aalbo5d3lml46sh77gt7235zum.t.hub-cloud72.ru",
+   "domain|ukzwexet4hxs3plimfgskou7amhlgqfv2ej33cfmxvtsaokg.t.hub-cloud72.ru",
+   "ip|1.1.1.1",
+   "ip|142.250.183.4",
+   "ip|193.214.112.115",
+   "url|http://hub-cloud72.ru/dl/po_384.docm"
+  ],
+  "04_victim_memory.mem": [
+   "domain|hub-cloud72.ru",
+   "domain|intranet.northwind.com",
+   "filename|po_384.docm",
+   "ip|193.214.112.115",
+   "process|explorer.exe",
+   "process|svchost.exe",
+   "process|updater.exe",
+   "url|https://intranet.northwind.com/home"
+  ],
+  "05_honeypot_cowrie.json": [
+   "ip|23.15.47.56",
+   "user|root",
+   "user|svc_sql78"
+  ],
+  "06_victim_disk.body": [
+   "filename|hosts",
+   "filename|po_384.docm",
+   "filename|q3_report.xlsx",
+   "filename|updater.exe",
+   "md5|8eded35883138246572a57a382cf77f1"
+  ],
+  "07_receipt_5425.jpg": [
+   "filename|07_receipt_5425.jpg"
+  ],
+  "08_newsletter.eml": [
+   "domain|google.com",
+   "domain|northwind.com",
+   "domain|techweekly.com",
+   "email|alice.m@northwind.com",
+   "email|news@techweekly.com",
+   "url|https://google.com",
+   "url|https://techweekly.com/issue"
+  ],
+  "09_internal_memo.eml": [
+   "domain|intranet.northwind.com",
+   "domain|northwind.com",
+   "email|alice.m@northwind.com",
+   "email|john.a@northwind.com",
+   "url|https://intranet.northwind.com/offsite"
+  ],
+  "10_scanner_cowrie.json": [
+   "ip|62.149.181.123",
+   "user|admin",
+   "user|root",
+   "user|ubnt"
+  ],
+  "11_holiday_558.jpg": [
+   "filename|11_holiday_558.jpg"
+  ],
+  "12_colleague_History": [
+   "domain|amazon.in",
+   "domain|github.com",
+   "domain|google.com",
+   "domain|intranet.northwind.com",
+   "domain|medium.com",
+   "domain|wikipedia.org",
+   "url|https://amazon.in",
+   "url|https://github.com",
+   "url|https://google.com/search?q=offsite+venue",
+   "url|https://intranet.northwind.com/home",
+   "url|https://medium.com",
+   "url|https://wikipedia.org"
+  ],
+  "13_colleague_capture.pcap": [
+   "domain|amazon.in",
+   "domain|github.com",
+   "domain|google.com",
+   "domain|intranet.northwind.com",
+   "ip|1.1.1.1",
+   "ip|142.250.183.4",
+   "ip|149.229.119.251",
+   "ip|45.199.175.116"
+  ]
+ },
+ "image": {
+  "label": "tampered",
+  "camera": "Canon EOS 200D",
+  "q1": 85,
+  "kind": "resampled_splice",
+  "region": [
+   148,
+   184,
+   85,
+   139
+  ]
+ }
+}

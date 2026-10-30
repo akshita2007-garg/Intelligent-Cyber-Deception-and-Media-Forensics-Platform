@@ -1,0 +1,5 @@
+{"eventid": "cowrie.session.connect", "timestamp": "2026-08-26T09:15:00.000000Z", "src_ip": "62.149.181.123", "session": "80f413835895", "sensor": "decoy-ssh-01", "src_port": 30234, "dst_port": 22}
+{"eventid": "cowrie.login.failed", "timestamp": "2026-08-26T09:15:02.000000Z", "src_ip": "62.149.181.123", "session": "80f413835895", "sensor": "decoy-ssh-01", "username": "root", "password": "admin"}
+{"eventid": "cowrie.login.failed", "timestamp": "2026-08-26T09:15:03.000000Z", "src_ip": "62.149.181.123", "session": "80f413835895", "sensor": "decoy-ssh-01", "username": "root", "password": "123456"}
+{"eventid": "cowrie.login.failed", "timestamp": "2026-08-26T09:15:04.000000Z", "src_ip": "62.149.181.123", "session": "80f413835895", "sensor": "decoy-ssh-01", "username": "admin", "password": "admin"}
+{"eventid": "cowrie.login.failed", "timestamp": "2026-08-26T09:15:05.000000Z", "src_ip": "62.149.181.123", "session": "80f413835895", "sensor": "decoy-ssh-01", "username": "ubnt", "password": "ubnt"}

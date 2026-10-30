@@ -1,0 +1,25 @@
+Authentication-Results: mx.northwind.com; spf=pass; dkim=pass; dmarc=pass
+From: "john.a" <john.a@northwind.com>
+To: alice.m@northwind.com
+Subject: Team offsite agenda
+Date: Sun, 23 Aug 2026 10:38:00 -0000
+Message-ID: <5454936bbd2fb572712501680860d028@mail.server>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5260713211976555817=="
+
+--===============5260713211976555817==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Agenda on the intranet.
+
+--===============5260713211976555817==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Agenda attached on the <a href=3D"https://intranet.northwind.com/offsite">=
+intranet</a>.</p>
+
+--===============5260713211976555817==--

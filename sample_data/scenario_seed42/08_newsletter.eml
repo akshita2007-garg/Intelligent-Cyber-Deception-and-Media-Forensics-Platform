@@ -1,0 +1,27 @@
+Received: from mx9.relay.net ([31.95.227.14]) by mail.server with ESMTPS; Thu,
+ 20 Aug 2026 09:27:00 -0000
+Authentication-Results: mx.northwind.com; spf=pass; dkim=pass; dmarc=pass
+From: Newsletter <news@techweekly.com>
+To: alice.m@northwind.com
+Subject: Your weekly digest
+Date: Thu, 20 Aug 2026 09:27:00 -0000
+Message-ID: <36282b19ef1deb5875f2b1eccffd982c@mail.server>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6729248350601252791=="
+
+--===============6729248350601252791==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Top stories this week.
+
+--===============6729248350601252791==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Top stories this week. <a href=3D"https://techweekly.com/issue">Read onlin=
+e</a> or search on <a href=3D"https://www.google.com/">Google</a>.</p>
+
+--===============6729248350601252791==--

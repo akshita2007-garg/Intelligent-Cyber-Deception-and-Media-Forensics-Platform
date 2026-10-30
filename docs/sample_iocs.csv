@@ -1,0 +1,24 @@
+type,value,evidence_ids,evidence_count,first_seen_utc
+filename,po_384.docm,E1 E2 E4 E6,4,2026-08-23T09:27:00
+domain,hub-cloud72.ru,E2 E3 E4,3,2026-08-23T09:48:00
+domain,northwind-verify-portal.click,E1 E2,2,2026-08-23T09:27:00
+ip,193.214.112.115,E3 E4,2,2026-08-23T09:48:00
+ip,23.15.47.56,E1 E5,2,2026-08-23T09:27:00
+md5,8eded35883138246572a57a382cf77f1,E1 E6,2,2026-08-23T09:27:00
+url,http://hub-cloud72.ru/dl/po_384.docm,E2 E3,2,2026-08-23T09:48:00
+url,https://northwind-verify-portal.click/verify?id=65392,E1 E2,2,2026-08-23T09:27:00
+domain,4e.ml,E4,1,
+domain,4ucvgs54rk5dqbwvqzty35qywfbt6sj6xocggtvsjd42tyeu.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:07
+domain,cone5brki7dzqtm2ojelxpqc7m7bjpaz44qspvmzwcytdvsl.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:42
+domain,d7dmxmhkhtqxsy7elgs4gtj3w2cxpjt5fwi3w4qtu364u2qe.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:00
+domain,ffarawr3jxxlgvvgfb2gfr22iut5q7sozh6vwqelricdxyy6.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:21
+domain,ie2e2migyddvbpbdtmpau5bnxzqwclujfo3gz4543mpmhlvq.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:28
+domain,jdkaqmo27nsdpsbrcw6ue4hupp7k3scgantx5oowflxzmax2.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:35
+domain,oomso6kgm6yi35l75kdqe7aalbo5d3lml46sh77gt7235zum.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:14
+domain,ukzwexet4hxs3plimfgskou7amhlgqfv2ej33cfmxvtsaokg.t.hub-cloud72.ru,E3,1,2026-08-23T09:58:49
+email,it-support@northwind-verify-portal.click,E1,1,2026-08-23T09:27:00
+filename,hosts,E6,1,2026-08-11T20:01:21
+filename,q3_report.xlsx,E6,1,2026-08-22T08:48:00
+filename,updater.exe,E6,1,2026-08-23T09:53:00
+sha256,4d6ff423fa97acbee886c3881451dbc18b5bfb617d86d4746de9af15225d6819,E1,1,2026-08-23T09:27:00
+url,https://google.com/search?q=quarterly+report,E2,1,2026-08-23T08:56:00
