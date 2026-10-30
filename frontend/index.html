@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IDMF · Deception &amp; Media Forensics</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div id="login" class="login hidden">
+  <form id="loginForm" class="login-card">
+    <div class="brand big"><span class="mark">◈</span> IDMF</div>
+    <p class="muted">Intelligent Deception &amp; Media Forensics Platform</p>
+    <label>Username<input name="username" autocomplete="username" value="investigator" required></label>
+    <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+    <button class="primary" type="submit">Sign in</button>
+    <button class="ghost" type="button" id="registerBtn">Create account</button>
+    <p class="hint">Demo account: <code>investigator</code> / <code>forensics123</code></p>
+    <p id="loginErr" class="err"></p>
+  </form>
+</div>
+
+<div id="app" class="app hidden">
+  <aside class="side">
+    <div class="brand"><span class="mark">◈</span> IDMF</div>
+    <div class="side-actions">
+      <button class="primary" id="newCaseBtn">+ New case</button>
+      <button class="ghost" id="demoBtn" title="Create a case from a synthetic, labelled intrusion scenario">Load demo case</button>
+    </div>
+    <div class="side-label">Cases</div>
+    <ul id="caseList" class="case-list"></ul>
+    <div class="side-foot"><span id="whoami"></span> · <a href="#" id="logout">Sign out</a></div>
+  </aside>
+
+  <main class="main">
+    <div id="empty" class="empty">
+      <h2>No case selected</h2>
+      <p>Create a case and upload evidence, or load the demo case to see every module working on a labelled scenario.</p>
+    </div>
+    <section id="caseView" class="hidden">
+      <header class="case-head">
+        <div>
+          <h1 id="caseTitle"></h1>
+          <p id="caseDesc" class="muted"></p>
+        </div>
+        <div class="head-actions">
+          <button class="ghost" id="verifyAllBtn">Re-verify hashes</button>
+          <button class="ghost danger" id="deleteCaseBtn">Delete</button>
+        </div>
+      </header>
+      <nav class="tabs" id="tabs">
+        <button data-tab="overview" class="active">Overview</button>
+        <button data-tab="evidence">Evidence</button>
+        <button data-tab="correlation">Correlation</button>
+        <button data-tab="timeline">Timeline</button>
+        <button data-tab="deception">Deception</button>
+        <button data-tab="ai">AI assistance</button>
+        <button data-tab="report">Report</button>
+        <button data-tab="custody">Chain of custody</button>
+      </nav>
+      <div id="tab-overview" class="tab"></div>
+      <div id="tab-evidence" class="tab hidden"></div>
+      <div id="tab-correlation" class="tab hidden"></div>
+      <div id="tab-timeline" class="tab hidden"></div>
+      <div id="tab-deception" class="tab hidden"></div>
+      <div id="tab-ai" class="tab hidden"></div>
+      <div id="tab-report" class="tab hidden"></div>
+      <div id="tab-custody" class="tab hidden"></div>
+    </section>
+  </main>
+</div>
+
+<div id="drawer" class="drawer hidden">
+  <div class="drawer-inner">
+    <button class="close" id="drawerClose" aria-label="Close">×</button>
+    <div id="drawerBody"></div>
+  </div>
+</div>
+<div id="toast" class="toast hidden"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
